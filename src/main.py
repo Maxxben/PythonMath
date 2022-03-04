@@ -1,11 +1,15 @@
-import fonctions_testType as s
-import main_TestType as test
-import chap1
-import chap2
-import tp
 import matplotlib.pyplot as plt
 import math
-import Exercices as ex
+
+from test.listes import *
+from test.fonctions_testType import *
+from test.main_TestType import *
+
+from chap.chap1 import *
+from chap.chap2 import *
+from chap.chap1_equation import *
+
+from Exercices.exercices import *
 
 print()
 
@@ -21,6 +25,5 @@ print()
 #print(ret)
 
 
-
-ex.exo1()
+exo1()
 

@@ -1,7 +1,7 @@
-import fonctions_testType as s
-import listes as z
+import test.fonctions_testType as s
+import test.listes as z
 
-def master():
+def main_TestType():
     print()
     chaine = "salut"
 
